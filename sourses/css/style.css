@@ -1,0 +1,124 @@
+html {
+    font-size: 10px;
+}
+
+header {
+    background-color: black;
+    height: 3.5vh;
+}
+
+section {
+    height: 93vh;
+    padding: 60px;
+
+    background-color: #364150;
+}
+
+.colform {
+    text-align: center;
+}
+
+.mainform {
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-radius: 3%;
+}
+
+.mainform h1 {
+    text-align: center;
+    color: #1da231;
+    font-size: 2.2rem;
+}
+
+.mainforminp {
+    display: block;
+
+    background-color: #dde3ec;
+    border: none;
+    padding: 12px;
+    width: 100%;
+}
+
+.form-btn {
+
+    padding: 0.2rem;
+    width: 10vh;
+    background-color: #3bac4b;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+.icon-right-circled2 {
+
+    display: inline-block;
+}
+
+.shell-btn {
+    text-align: left;
+}
+
+
+.cop {
+    margin: 0 auto;
+    color: #5E7284;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: black;
+    height: 3.5vh;
+}
+
+@media(max-height:950px) {
+    section {
+        padding: 2rem;
+    }
+}
+
+@media(max-height:400px) {
+    .mainform {
+        margin-top: -29px;
+        height: 255px;
+
+    }
+
+    .form-btn {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:250px) {
+    .mainform {
+        width: 80vh;
+        height: 80vh;
+        margin-top: -20px;
+
+    }
+
+    section {
+
+        height: 500px;
+    }
+}
+
+@media (min-width:250px) and (max-width:400px) {
+    .mainform {
+        width: 40vh;
+
+        margin-top: -5px;
+
+    }
+}
+
+@media(min-width:600px) and (max-width: 950px) {
+    .mainform {
+        width: 30vh;
+        height: 30vh;
+    }
+
+}
